@@ -17,7 +17,10 @@ Do the following:
 
    HINT: no function required
 */
-
+// const votingAge = 18;
+//  if (votingAge >= 18) {
+//    return true;
+//  }
 
 
 /*
@@ -74,11 +77,11 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(age){
+    return age * 7;
 }
 
-
+console.log(dogYears(25));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
